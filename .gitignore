@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# YOLO dataset - keep locally, do not push images/labels
+ai/pothole_dataset/train/images/
+ai/pothole_dataset/train/labels/
+ai/pothole_dataset/val/images/
+ai/pothole_dataset/val/labels/
+ai/pothole_dataset/test/images/
+ai/pothole_dataset/test/labels/
+
+# YOLO generated files
+runs/
+*.pt
+
+# Dataset cache
+*.cache

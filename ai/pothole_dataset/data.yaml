@@ -1,0 +1,10 @@
+# PAVE SPOT - Pothole Detection Dataset
+
+path: .
+
+train: train/images
+val: val/images
+test: test/images
+
+nc: 1
+names: ['Pothole']
